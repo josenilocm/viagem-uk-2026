@@ -1,0 +1,12 @@
+{
+  "name": "Inglaterra & Escócia · roteiro público",
+  "short_name": "Roteiro 2026",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f6",
+  "theme_color": "#0b5d5e",
+  "description": "Roteiro público da viagem por Inglaterra e Escócia em novembro de 2026.",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

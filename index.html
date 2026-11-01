@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b5d5e">
+    <meta name="description" content="Roteiro público da viagem por Inglaterra e Escócia em novembro de 2026.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Roteiro 2026">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230b5d5e'/%3E%3Cpath d='M24 64h52M30 53h40M38 42h24' stroke='white' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inglaterra &amp; Escócia · roteiro</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+    <div id="app" class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">roteiro público</p>
+          <h1 id="site-title">Inglaterra &amp; Escócia</h1>
+        </div>
+        <button class="icon-button" type="button" data-action="toggle-theme" aria-label="Alternar tema" title="Alternar tema">◐</button>
+      </header>
+      <div id="connection-status" class="connection-status" role="status" aria-live="polite">Carregando conteúdo público · offline disponível</div>
+      <main id="main-content" tabindex="-1">
+        <div id="loading" class="loading-state" role="status" aria-live="polite">
+          <span class="spinner" aria-hidden="true"></span>
+          <p>Preparando o roteiro…</p>
+        </div>
+        <div id="app-content" hidden></div>
+      </main>
+      <nav aria-label="Navegação principal" class="bottom-nav">
+        <button type="button" class="nav-item is-active" data-view="home" aria-current="page"><span aria-hidden="true">⌂</span><span>Hoje</span></button>
+        <button type="button" class="nav-item" data-view="itinerary"><span aria-hidden="true">▤</span><span>Roteiro</span></button>
+        <button type="button" class="nav-item" data-view="map"><span aria-hidden="true">⌖</span><span>Mapa</span></button>
+        <button type="button" class="nav-item" data-view="tasks"><span aria-hidden="true">✓</span><span>Tarefas</span></button>
+        <button type="button" class="nav-item" data-view="more"><span aria-hidden="true">⋯</span><span>Mais</span></button>
+      </nav>
+    </div>
+    <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title">
+      <div id="detail-content"></div>
+      <form method="dialog" class="dialog-close"><button class="button button-secondary" value="close">Fechar</button></form>
+    </dialog>
+    <noscript>
+      <div class="noscript">Este site precisa de JavaScript para carregar o roteiro. Ative JavaScript e tente novamente.</div>
+    </noscript>
+    <script src="vendor/leaflet/leaflet.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
