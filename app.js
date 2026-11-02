@@ -19,6 +19,7 @@
     suggestion: "Sugestão",
     conflict: "Conflito de horário",
     choice: "Escolha",
+    cancelled: "Cancelado",
   };
 
   const appContent = document.querySelector("#app-content");

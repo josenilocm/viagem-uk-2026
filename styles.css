@@ -114,7 +114,7 @@ main { max-width: 1200px; margin: 0 auto; padding: 0 20px 30px; }
 .badge { display: inline-flex; align-items: center; min-height: 28px; padding: 3px 9px; border: 1px solid currentColor; border-radius: 999px; font-size: .76rem; font-weight: 800; line-height: 1.2; }
 .badge.confirmed { color: var(--success); background: var(--success-soft); }
 .badge.recorded, .badge.planned, .badge.choice { color: var(--warning); background: var(--warning-soft); }
-.badge.pending, .badge.conflict { color: var(--danger); background: var(--danger-soft); }
+.badge.pending, .badge.conflict, .badge.cancelled { color: var(--danger); background: var(--danger-soft); }
 .badge.suggestion { color: var(--muted); background: color-mix(in srgb, var(--muted) 11%, var(--panel)); }
 .badge.private { color: var(--muted); background: var(--surface); }
 
