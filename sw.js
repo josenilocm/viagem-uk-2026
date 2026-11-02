@@ -1,4 +1,4 @@
-const CACHE_NAME = "viagem-public-v2";
+const CACHE_NAME = "viagem-public-v3";
 const SHELL = [
   "./",
   "./index.html",
