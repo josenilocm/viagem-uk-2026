@@ -4,7 +4,7 @@
     "subtitle": "roteiro cultural · novembro de 2026",
     "timezone": "Europe/London",
     "defaultDate": "2026-11-02",
-    "lastReviewed": "2026-11-06",
+    "lastReviewed": "2026-11-07",
     "publication": "published",
     "notice": "Versão pública para família e amigos. Não há reservas, documentos, códigos ou dados pessoais nesta página.",
     "summary": "Londres → Edimburgo → Londres, com um bate-volta a Oxford. Um roteiro de teatro, museus, livrarias, jardins e boa mesa."
@@ -51,8 +51,8 @@
       {"id":"sheraton-arrival","title":"Chegada ao Sheraton Grand","category":"hospedagem","start":"18:30","status":"confirmed","statusLabel":"Confirmado","place":"Haymarket · Edimburgo","address":"1 Festival Square, Edinburgh EH3 9SR","summary":"Táxi curto recomendado por causa das malas.","mapQuery":"Sheraton Grand Edinburgh","links":[]},
       {"id":"food-0811","title":"Jantar: Dishoom Edinburgh","category":"comida","start":"flex","status":"suggestion","statusLabel":"Sugestão","place":"New Town · Edimburgo","address":"Dishoom Edinburgh, St Andrew Square","summary":"Dishoom na St Andrew Square como opção de jantar. Confira horário e reserva no site.","mapQuery":"Dishoom Edinburgh, St Andrew Square","links":[{"label":"Dishoom Edinburgh","url":"https://www.dishoom.com/edinburgh/"}]}
     ]},
-    {"date":"2026-11-09","weekday":"segunda","city":"Edimburgo","base":"Old Town","summary":"Castelo pendente, Royal Mile e museu nacional.","items":[
-      {"id":"edinburgh-castle","title":"Castelo de Edimburgo","category":"cultura","start":"10:00","status":"pending","statusLabel":"Pendente","place":"Castlehill · Edimburgo","address":"Edinburgh Castle, Castlehill, Edinburgh EH1 2NG","summary":"É necessário comprar ingresso com horário antes de tratar a visita como confirmada.","mapQuery":"Edinburgh Castle","links":[]},
+    {"date":"2026-11-09","weekday":"segunda","city":"Edimburgo","base":"Old Town","summary":"Castelo com ingresso das 9h30, Royal Mile e museu nacional.","items":[
+      {"id":"edinburgh-castle","title":"Castelo de Edimburgo","category":"cultura","start":"09:30","status":"confirmed","statusLabel":"Confirmado","place":"Castlehill · Edimburgo","address":"Edinburgh Castle, Castlehill, Edinburgh EH1 2NG","summary":"Ingresso comprado e pago para 2 adultos, com entrada entre 9h30 e 10h00. Chegue antes das 9h30 e deixe o ingresso salvo no celular.","mapQuery":"Edinburgh Castle","links":[]},
       {"id":"royal-mile","title":"Royal Mile e National Museum","category":"cultura","start":"flex","status":"suggestion","statusLabel":"Sugestão","place":"Old Town · Edimburgo","address":"Royal Mile, Edinburgh","summary":"Closes, museu gratuito e lojas de lã e tweed.","mapQuery":"Royal Mile Edinburgh","links":[]},
       {"id":"food-0911","title":"Onde comer: Oink e Sandy Bell’s","category":"comida","start":"flex","status":"suggestion","statusLabel":"Sugestão","place":"Old Town · Edimburgo","address":"Victoria Street e Forrest Road, Edinburgh","summary":"Almoço no Oink (porco assado), na Victoria Street, e noite de folk ao vivo no Sandy Bell’s; chegar cedo pelo lugar.","mapQuery":"Victoria Street e Forrest Road, Edinburgh","links":[{"label":"Oink","url":"https://oinkhogroast.co.uk/shops/victoria-street"},{"label":"Sandy Bell’s","url":"https://sandybells.com/"}]}
     ]},
@@ -100,7 +100,7 @@
     {"id":"baggage","group":"Antes do embarque","title":"Confirmar bagagem despachada de 23 kg","why":"A cotação menciona a franquia, mas a confirmação precisa ser conferida no e-ticket.","next":"Conferir a tarifa e os limites atuais no site oficial."},
     {"id":"offline-docs","group":"Antes do embarque","title":"Organizar e-tickets, ETA e seguro offline","why":"Acesso sem conexão pode ser necessário durante o deslocamento.","next":"Guardar documentos no cofre privado do dispositivo; não neste site."},
     {"id":"gwr","group":"Antes do embarque","title":"Salvar eTickets do GWR para Oxford","why":"A compra foi concluída, mas o eTicket ainda precisa ser conferido e salvo.","next":"Conferir o e-mail ou app GWR e guardar o PDF ou bilhete no celular; portar o Railcard."},
-    {"id":"castle","group":"Antes do embarque","title":"Comprar ingresso do Castelo de Edimburgo","why":"A visita está no roteiro, mas o ingresso com horário ainda não foi comprado.","next":"Ver disponibilidade no site oficial."},
+    {"id":"castle","group":"Antes do embarque","title":"Salvar o ingresso do Castelo de Edimburgo (09/11)","why":"A compra foi concluída; o ingresso precisa estar acessível no celular na entrada, entre 9h30 e 10h00.","next":"Conferir o e-mail de confirmação e salvar o ingresso no celular; não publicar o código neste site."},
     {"id":"westminster","group":"Antes do embarque","title":"Resolver o conflito de Westminster em 13/11","why":"Headout começa às 9h30; Westminster Abbey foi planejada para a mesma faixa.","next":"Manter Headout e reagendar Abbey, ou decidir a alternativa editorialmente."},
     {"id":"last-shopping","group":"Antes do embarque","title":"Planejar as últimas compras em Londres (14/11)","why":"O tour do Parlamento foi cancelado e o dia é para compras, com saída para Heathrow por volta de 16h30.","next":"Listar lojas e ordem; respeitar o limite de 23 kg por mala despachada."},
     {"id":"insurance","group":"Antes do embarque","title":"Levar o certificado do seguro viagem (cobertura de 90 dias)","why":"A cobertura confirmada é de 90 dias por viagem, suficiente para todo o roteiro.","next":"Guardar o certificado offline no celular; não neste site."},
@@ -115,7 +115,7 @@
     {"id":"westminster-conflict","severity":"critical","date":"2026-11-13","title":"Conflito às 9h30","body":"Headout confirmado coincide com Westminster Abbey planejada. É necessária uma decisão; o site não escolhe por você."},
     {"id":"tamarind-details","severity":"attention","date":"2026-11-07","title":"Jantar no Tamarind às 19h45","body":"Reserva confirmada para duas pessoas em Mayfair (20 Queen St), em substituição ao Gymkhana. Confira o trajeto desde Camden."},
     {"id":"oxford-tickets","severity":"attention","date":"2026-11-12","title":"Salvar eTickets de Oxford","body":"O GWR já está comprado e pago. Confira o e-mail ou app e salve os bilhetes antes da viagem."},
-    {"id":"castle-ticket","severity":"attention","date":"2026-11-09","title":"Castelo de Edimburgo pendente","body":"A visita só deve ser considerada confirmada após comprar ingresso com horário."},
+    {"id":"castle-ticket","severity":"attention","date":"2026-11-09","title":"Castelo de Edimburgo: entrada 9h30–10h00","body":"Ingresso comprado e pago para duas pessoas. Chegue antes das 9h30 e confira se o ingresso está salvo no celular."},
     {"id":"shopping-airport","severity":"attention","date":"2026-11-14","title":"Compras e aeroporto","body":"O dia é de últimas compras; a saída prevista para Heathrow é por volta de 16h30. Preserve margem ampla e o limite de 23 kg por mala."},
     {"id":"flight-check","severity":"attention","date":"2026-11-02","title":"Conferências antes do voo","body":"Assentos juntos e franquia de bagagem ainda precisam de conferência."}
   ],
